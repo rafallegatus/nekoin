@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+ */@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.6.3');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+a:hover {
+    color: #ffdc0f;
+    text-decoration: none;
+}
+
+ul, nav , h1, h2, h3, h4, h5,  h6{
+		font-family: 'Comfortaa', cursive;
+		font-weight: 700;
+}
+
+p {
+		font-family: 'Comfortaa', cursive;
+		font-weight: 300;		
+}
+
+
+
+.navbar {
+	
+    background:#252525;
+	padding-left: 40px;
+	
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+	
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('../img/nekoin_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+	padding-top: 100px;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(158, 184, 188, 0.1);
+}
+
+.description {
+    left: 35%;
+    position: absolute;
+	margin-right: 300px;
+    top: 40%;
+    transform: translate(-90%, -40%);
+    text-align: left;
+}
+
+.description h1 {
+    color: #d0b92e;
+	font-weight: Bold;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+
+.description button {
+    border:1px solid #d0b92e;
+    background:#d0b92e;
+    border-radius: 0;
+    color:#fff;
+}
+
+.description button:hover {
+    border:1px solid #d0b92e;
+    background:#fff;
+    color:#000;
+	
+
+}
+
+
+
+.arrow {
+	font-family: 'FontAwesome';
+	display: inline-block;
+	font-size: 50px;
+	color: #5e5e5e;
+	text-align: center;
+	
+} 
+
+
+
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+
+.sectiontitle {
+	
+text-align: center;
+padding-top: 80px;
+padding-bottom:30px;
+margin-bottom: 10px;	
+	
+	
+}
+
+.team_description {
+	
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-bottom:30px;
+	margin-bottom: 10px;	
+	
+}
+
+
+.custombtn {
+	color: #fff;
+	background-color: #1876ca;
+	border-color: #3e77aa;
+		
+}
+
+
+
+
+.background {
+    background: #dedec8;
+    padding: 4em 0;
+}
+
+
+
+.team {
+    color: #5e5e55;
+    padding: 0 110px;
+}
+
+.team .card-columns {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+
+.team .card {
+    background:none;
+    border: none;
+}
+
+.team .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+
+.so {
+	
+
+	padding-right: 6px;
+	
+}
+
+#nekoin-modal .modal-content {
+    border-radius: 0;
+    padding: 2rem;
+}
+
+#nekoin-modal .modal-header {
+    border-bottom: none;
+}
+
+#nekoin-modal h4 {
+    color: #000;
+    font-size: 30px;
+    margin: 0 0 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#nekoin-modal .close {
+    background: #c0c3c8;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 19px;
+    font-weight: normal;
+    height: 30px;
+    opacity: 0.5;
+    padding: 0;
+    position: absolute;
+    right: 26px;
+    text-align: center;
+    top: 26px;
+    width: 30px;
+}
+
+#nekoin-modal .close span {
+    position: relative;
+    top: -3px;
+}
+
+#nekoin-modal .modal-body p {
+    color: #999;
+}
+
+#nekoin-modal .form-control,
+#nekoin-modal .btn {
+    min-height: 46px;
+}
+
+#nekoin-modal .btn {
+    background-color: #1da098;
+    border: none;
+    color: #fff;
+    min-width: 150px;
+    transition: all 0.4s;
+}
+
+#nekoin-modal .btn:hover,
+#nekoin-modal .btn:focus {
+    background-color: #12968d;
+}
+
+
+@media (max-width: 575.98px) {
+
+    .description {
+        left: 40px;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+	
+	.description button {
+
+}
+	
+ 
+    .description h1, h2 {
+        font-size: 1rem;
+    }
+ 
+    .description p {
+        font-size: 1rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+	
+	.team_description {
+	
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 10px;	
+	
+}
+
+	
+	btn-group-lg > .btn, .btn-lg {
+    padding: .1rem 1rem;
+    font-size: 0.8rem;
+    line-height: 1;
+    border-radius: .6rem;
+}
+
+}
