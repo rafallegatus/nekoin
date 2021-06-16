@@ -1,0 +1,92 @@
+/*Style For Nekoin - Underconstruction*/
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.nekoinpage {
+  
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+
+.nekoinimage {
+
+width:20%;
+padding-top: 100px;
+}
+
+.timertex{
+	
+	color:#AFA910;	
+}
+
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+
+
+@media only screen and (max-width: 360px) 
+{
+.nekoinimage {
+	width:50%;
+}
+
+}
+
+@media only screen and (max-width: 600px) 
+{
+	
+.nekoinimage {
+	width:50%;
+}
+}
+
+@media only screen and (max-width: 768px) 
+{
+	
+.nekoinimage {
+	width:50%;
+}
+}
+
+@media only screen and (max-width: 800px) 
+{
+	
+.nekoinimage {
+	width:50%;
+}
+}
+
+
