@@ -74,7 +74,7 @@ ul, p {
 	width: 800px;
 	height: auto;
 	padding-top: 30px;
-	padding-bottom: 200px;
+	margin-bottom: 80px;
 	vertical-align: middle;
 }
 
@@ -401,15 +401,17 @@ button :active {
 
 .header {
    
-    background-size: 1000px;
+    background-size: 750px;
+	padding-top: 80px;
     background-position: top;
 	background-repeat: no-repeat;
     position: inherit;
+	margin-bottom: -280px;
+
 
 }
 
-	
-	
+
 	
  
     .description h1, h2 {
