@@ -13,13 +13,13 @@ a:hover {
     text-decoration: none;
 }
 
-ul, nav , h1, h2, h3, h4, h5,  h6{
+ nav , h1, h2, h3, h4, h5,  h6{
 		font-family: 'Comfortaa', cursive;
 		font-weight: 700;
 }
 
-p {
-		font-family: 'Comfortaa', cursive;
+ul, p {
+		font-family: 'Open Sans', cursive;
 		font-weight: 300;		
 }
 
@@ -55,9 +55,9 @@ p {
     background-image: url('../img/nekoin_bg.jpg');
     background-size: cover;
     background-position: center;
-    position: relative;
-	padding-top: 100px;
+    position: inherit;
 }
+
 
 .overlay {
     position: absolute;
@@ -67,6 +67,19 @@ p {
     top: 0;
     background: rgba(158, 184, 188, 0.1);
 }
+
+
+.header_img {
+	
+	width: 800px;
+	height: auto;
+	padding-top: 150px;
+	vertical-align: middle;
+}
+
+
+
+
 
 .description {
     left: 35%;
@@ -168,6 +181,40 @@ margin-bottom: 10px;
 }
 
 
+.custombtn_2
+ {
+color: #252525;
+background-color: #d0b92e;
+
+}
+
+.custombtn_2_size {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: .3rem;
+}
+
+
+.custombtn_2:hover {
+	
+	background: #eee29b;
+    color:#252525;
+    text-decoration: none;
+}
+
+
+button :active {
+	
+	border-style: solid;
+	border-color: coral;
+  
+
+}
+
+
+
+
 
 
 .background {
@@ -253,12 +300,17 @@ margin-bottom: 10px;
 .page-footer {
     background-color: #222;
     color: #ccc;
-    padding: 60px 0 30px;
+    padding-top: 60px;
+	
 }
 
 .footer-copyright {
     color: #666;
-    padding: 40px 0;
+	margin-top: 40px;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #111;
+	
 }
 
 
@@ -346,6 +398,18 @@ margin-bottom: 10px;
 	.description button {
 
 }
+
+.header {
+   
+    background-size: 1000px;
+    background-position: top;
+	background-repeat: no-repeat;
+    position: inherit;
+
+}
+
+	
+	
 	
  
     .description h1, h2 {
