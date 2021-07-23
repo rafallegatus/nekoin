@@ -45,11 +45,22 @@ body, html {
 }
 
 
+.nekointelegram {
+
+width:40%;
+padding-bottom: 40px;
+}
+
+
 .nekoinimage {
 
 width:20%;
 padding-top: 100px;
 }
+
+
+
+
 
 .timertex{
 	
@@ -88,6 +99,14 @@ hr {
 {
 .nekoinimage {
 	width:50%;
+	padding-top: 200px;
+}
+.nekointelegram {
+
+width: 70%;
+position: absolute;
+left: 80px;
+
 }
 
 }
@@ -98,6 +117,15 @@ hr {
 .nekoinimage {
 	width:50%;
 }
+
+.nekointelegram {
+
+width: 70%;
+position: absolute;
+left: 80px;
+
+}
+
 }
 
 @media only screen and (max-width: 768px) 
@@ -106,6 +134,15 @@ hr {
 .nekoinimage {
 	width:50%;
 }
+
+.nekointelegram {
+
+width: 70%;
+position: absolute;
+left: 80px;
+
+}
+
 }
 
 @media only screen and (max-width: 800px) 
@@ -114,6 +151,18 @@ hr {
 .nekoinimage {
 	width:50%;
 }
+
+
+.nekointelegram {
+
+width: 70%;
+position: absolute;
+left: 80px;
+
+}
+
+
+
 }
 
 
